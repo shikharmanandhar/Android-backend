@@ -25,7 +25,7 @@ orderRouter.post(
       throw new Error("No order items");
       return;
     } else {
-      const order = new Order({
+      const order = new ({
         orderItems,
         user: req.user._id,
         shippingAddress,
