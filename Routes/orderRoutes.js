@@ -78,7 +78,7 @@ orderRouter.get(
       res.json(order);
     } else {
       res.status(404);
-      throw new Error("Order Not Found");
+      throw new Error("Order Not ");
     }
   })
 );
