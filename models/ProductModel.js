@@ -1,6 +1,6 @@
 import mongoose from "mongoose";
 //const mongoose = require("mongoose");
-const reviewSchema = mongoose.Schema(
+const reviewSchea = mongoose.Schema(
   {
     name: { type: String, required: true },
     rating: { type: Number, required: true },
