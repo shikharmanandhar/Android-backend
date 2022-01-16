@@ -111,7 +111,7 @@ orderRouter.put(
 
 // ORDER IS PAID
 orderRouter.put(
-  "/:id/delivered",
+  "/:id/deliveed",
   protect,
   asyncHandler(async (req, res) => {
     const order = await Order.findById(req.params.id);
