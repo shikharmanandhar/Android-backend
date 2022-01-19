@@ -104,7 +104,7 @@ orderRouter.put(
       res.json(updatedOrder);
     } else {
       res.status(404);
-      throw new Error("Order Not Found");
+      throw new Error(" Not Found");
     }
   })
 );
