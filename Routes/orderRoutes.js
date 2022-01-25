@@ -123,7 +123,7 @@ orderRouter.put(
       const updatedOrder = await order.save();
       res.json(updatedOrder);
     } else {
-      res.status();
+      res.status(404);
       throw new Error("Order Not Found");
     }
   })
